@@ -27,7 +27,8 @@ button{
 
 .header{
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 0px 100px;
 }
 
 .headerleft{
@@ -43,8 +44,8 @@ button{
 }
 
 .top{
-    padding: 75px 0;
-    justify-content: center;
+    padding: 75px 100px;
+    justify-content: space-around;
     align-items: center;
     gap: 40px;
 }
@@ -72,7 +73,7 @@ button{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding-bottom: 50px    
+    padding: 50px 75px 100px 100px
 }
 
 .middletitle, .middletext{
@@ -89,14 +90,12 @@ button{
 .grid{
     display: flex;
     flex-flow: row wrap;
-    column-gap: 75px;
-    row-gap: 30px;
-    justify-content: center;
-    width: 640px;
-    }
+    gap: 50px;
+    justify-content: space-around;
+}
 
 .box{
-    border: 5px #3882F6 solid;
+    border: 5px #0d2c58 solid;
     width: 200px;
     height: 200px;
 }
@@ -131,7 +130,7 @@ button{
     margin: 50px 100px;
     border-radius: 15px;
     gap: 10px;
-    padding: 20px 50px;
+    padding: 20px 30px;
     align-self: center;
 }
 
